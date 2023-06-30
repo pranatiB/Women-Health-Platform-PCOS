@@ -1,0 +1,19 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    /* Set a background color for the circle */
+    overflow: hidden;
+}
+
+.logo-image {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Apply a border radius to the image to match the circle */
+}

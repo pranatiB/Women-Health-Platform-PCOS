@@ -1,0 +1,215 @@
+/* 
+
+* {
+    margin: 1;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+@font-face {
+    font-family: "CustomFont";
+  
+}
+
+.pcos-form-container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    
+    
+}
+
+.pcos-form {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    margin: auto;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.pcos-form label {
+    color: black;
+    font-size: 1em;
+}
+
+.pcos-form input[type="text"],
+.pcos-form input[type="number"] {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.pcos-form input:focus {
+    outline-color: rgb(32, 177, 255);
+}
+
+.pcos-form select {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 1em;
+    font-size: 1em;
+}
+
+.pcos-form input[type="submit"] {
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pcos-form input[type="submit"]:hover {
+    transform: scale(1.25);
+    background-color: rgb(26, 145, 218);
+ 
+}
+
+.pcos-form button[type="submit"] {
+    width: 40%;
+    height: 2.5em;
+  
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.75em;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 1em;
+} */
+
+
+
+* {
+    margin: 1;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+@font-face {
+    font-family: "CustomFont";
+
+}
+
+.pcos-form-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+.pcos-form {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    margin: auto;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.pcos-form label {
+    color: black;
+    font-size: 1em;
+}
+
+.pcos-form input[type="text"],
+.pcos-form input[type="number"] {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.pcos-form input:focus {
+    outline-color: rgb(32, 177, 255);
+}
+
+.pcos-form select {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 1em;
+    font-size: 1em;
+}
+
+.pcos-form input[type="submit"] {
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pcos-form input[type="submit"]:hover {
+    transform: scale(1.25);
+    background-color: rgb(26, 145, 218);
+
+}
+
+.pcos-form button[type="submit"] {
+    width: 40%;
+    height: 2.5em;
+    /* background: linear-gradient(90deg, #c03e5d 0%,
+    #393a4e 100%); */
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.75em;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 1em;
+}
